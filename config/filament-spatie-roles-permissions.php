@@ -20,7 +20,7 @@ return [
 
     'guard_names' => [
         'web' => 'web',
-        'api' => 'api',
+        
     ],
 
     'toggleable_guard_names' => [
@@ -32,7 +32,7 @@ return [
         ],
     ],
 
-    'default_guard_name' => null,
+    'default_guard_name' => 'web',
 
     'model_filter_key' => 'return \'%\'.$key;', // Eg: 'return \'%\'.$key.'\%\';'
 
@@ -50,7 +50,7 @@ return [
 
         'guard_names' => [
             'web',
-            'api',
+            
         ],
 
         'permission_affixes' => [

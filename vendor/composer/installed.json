@@ -2,17 +2,17 @@
     "packages": [
         {
             "name": "althinect/filament-spatie-roles-permissions",
-            "version": "v2.2.6",
-            "version_normalized": "2.2.6.0",
+            "version": "v2.2.8",
+            "version_normalized": "2.2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Althinect/filament-spatie-roles-permissions.git",
-                "reference": "8a134ee1ecfd61f0a543475d25c7e8c0099bb8c3"
+                "reference": "6cca42cbb97b808f765906a98fc6fe34fa74bb31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Althinect/filament-spatie-roles-permissions/zipball/8a134ee1ecfd61f0a543475d25c7e8c0099bb8c3",
-                "reference": "8a134ee1ecfd61f0a543475d25c7e8c0099bb8c3",
+                "url": "https://api.github.com/repos/Althinect/filament-spatie-roles-permissions/zipball/6cca42cbb97b808f765906a98fc6fe34fa74bb31",
+                "reference": "6cca42cbb97b808f765906a98fc6fe34fa74bb31",
                 "shasum": ""
             },
             "require": {
@@ -26,7 +26,7 @@
                 "orchestra/testbench": "^7.0",
                 "phpunit/phpunit": "^9.0"
             },
-            "time": "2023-11-16T21:13:06+00:00",
+            "time": "2023-11-28T16:44:05+00:00",
             "type": "library",
             "extra": {
                 "laravel": {
@@ -62,7 +62,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Althinect/filament-spatie-roles-permissions/issues",
-                "source": "https://github.com/Althinect/filament-spatie-roles-permissions/tree/v2.2.6"
+                "source": "https://github.com/Althinect/filament-spatie-roles-permissions/tree/v2.2.8"
             },
             "install-path": "../althinect/filament-spatie-roles-permissions"
         },

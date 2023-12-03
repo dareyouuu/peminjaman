@@ -29,7 +29,10 @@ class UserResource extends Resource
                 ->password()
                 ->required()
                 ->hiddenOn('edit'),
-
+                Forms\Components\Select::make('roles')
+                ->multiple()
+                ->relationship('roles', 'name')->preload(),
+                
             ]);
     }
 
@@ -39,6 +42,7 @@ class UserResource extends Resource
             ->columns([
                 Tables\Columns\TextColumn::make('name'),
                 Tables\Columns\TextColumn::make('email'),
+                Tables\Columns\TextColumn::make('roles.name'),
             ])
             ->filters([
                 //
