@@ -1,9 +1,1 @@
-SIAP-CIBIRU
-
-<!-- <img 
-
-    src="Logo" 
-
-    alt="h-16" 
-
-/> -->
+<img src="{{ asset('/images/logoupicibiru.png') }}" alt="Logo" class="h-10">
